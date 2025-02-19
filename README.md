@@ -5,3 +5,5 @@
 * Elytra enchants
 * New Mending (?)
 * Thor/Zeus Enchant
+* underground village
+  * Demolitionist?
