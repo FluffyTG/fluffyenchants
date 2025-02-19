@@ -4,3 +4,4 @@
 * Floating Islands
 * Elytra enchants
 * New Mending (?)
+* Thor/Zeus Enchant
