@@ -1,0 +1,378 @@
+{
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bread",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "custom_name",
+              "name": {
+                "text": "Rat Sandwich",
+                "color": "blue",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 7,
+                  "saturation": 6,
+                  "can_always_eat": false,
+                  "eat_seconds": 2
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_porkchop",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 9,
+                  "saturation": 5
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "item_name",
+              "name": {
+                "text": "Cooked Rat",
+                "color": "blue",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chicken",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "item_name",
+              "name": {
+                "text": "Rat",
+                "color": "blue",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:food": {
+                  "nutrition": 5,
+                  "saturation": 4,
+                  "effects": [
+                    {
+                      "effect": {
+                        "id": "minecraft:blindness",
+                        "duration": 800
+                      },
+                      "probability": 0.15
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Chef's Hat",
+                "color": "gold",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": {
+                  "rgb": 16777215,
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "hat1",
+                      "type": "minecraft:armor_toughness",
+                      "amount": 2,
+                      "operation": "add_value",
+                      "slot": "armor"
+                    },
+                    {
+                      "id": "hat2",
+                      "type": "minecraft:armor",
+                      "amount": 3,
+                      "operation": "add_value",
+                      "slot": "armor"
+                    },
+                    {
+                      "id": "hat3",
+                      "type": "minecraft:max_health",
+                      "amount": 2,
+                      "operation": "add_value",
+                      "slot": "armor"
+                    }
+                  ]
+                },
+                "minecraft:max_damage": 344,
+                "minecraft:trim": {
+                  "material": "minecraft:netherite",
+                  "pattern": "minecraft:wayfinder"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Chef's Apron",
+                "color": "gold",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": {
+                  "rgb": 16777215,
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "chest1",
+                      "type": "minecraft:armor_toughness",
+                      "amount": 2,
+                      "operation": "add_value",
+                      "slot": "armor"
+                    },
+                    {
+                      "id": "chest2",
+                      "type": "minecraft:armor",
+                      "amount": 8,
+                      "operation": "add_value",
+                      "slot": "armor"
+                    },
+                    {
+                      "id": "chest3",
+                      "type": "minecraft:max_health",
+                      "amount": 3,
+                      "operation": "add_value",
+                      "slot": "armor"
+                    }
+                  ]
+                },
+                "minecraft:max_damage": 344,
+                "minecraft:trim": {
+                  "material": "minecraft:netherite",
+                  "pattern": "minecraft:wayfinder"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Chef's Pants",
+                "color": "gold",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": {
+                  "rgb": 16777215,
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "pants1",
+                      "type": "minecraft:armor_toughness",
+                      "amount": 2,
+                      "operation": "add_value",
+                      "slot": "armor"
+                    },
+                    {
+                      "id": "pants2",
+                      "type": "minecraft:armor",
+                      "amount": 6,
+                      "operation": "add_value",
+                      "slot": "armor"
+                    },
+                    {
+                      "id": "pants3",
+                      "type": "minecraft:max_health",
+                      "amount": 2,
+                      "operation": "add_value",
+                      "slot": "armor"
+                    }
+                  ]
+                },
+                "minecraft:max_damage": 780,
+                "minecraft:trim": {
+                  "material": "minecraft:netherite",
+                  "pattern": "minecraft:wayfinder"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Chef's Boots",
+                "color": "gold",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:dyed_color": {
+                  "rgb": 16777215,
+                  "show_in_tooltip": false
+                },
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "fluffytg:boots1",
+                      "type": "minecraft:armor_toughness",
+                      "amount": 2,
+                      "operation": "add_value",
+                      "slot": "armor"
+                    },
+                    {
+                      "id": "boots2",
+                      "type": "minecraft:armor",
+                      "amount": 3,
+                      "operation": "add_value",
+                      "slot": "armor"
+                    },
+                    {
+                      "id": "boots3",
+                      "type": "minecraft:max_health",
+                      "amount": 2,
+                      "operation": "add_value",
+                      "slot": "armor"
+                    }
+                  ]
+                },
+                "minecraft:max_damage": 489,
+                "minecraft:trim": {
+                  "material": "minecraft:netherite",
+                  "pattern": "minecraft:wayfinder"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "rolls": 5,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cobweb",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gunpowder",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rotten_flesh",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Rotten Meat",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bone",
+          "weight": 2
+        }
+      ]
+    }
+  ]
+}

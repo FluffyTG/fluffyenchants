@@ -1,0 +1,2 @@
+execute as @s[scores={poseidon_cooldown=0..}] at @s run scoreboard players add @s poseidon_cooldown 1
+execute as @s[scores={poseidon_cooldown=60..}] at @s run scoreboard players set @s poseidon_cooldown 60

@@ -1,0 +1,266 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_leggings",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_chestplate",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_helmet",
+          "weight": 5
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:trim": {
+              "material": "minecraft:amethyst",
+              "pattern": "minecraft:bolt",
+              "show_in_tooltip": true
+            }
+          }
+        },
+        {
+          "function": "minecraft:enchant_with_levels",
+          "levels": 20,
+          "options": "#minecraft:on_random_loot"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_boots",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_boots",
+          "weight": 9
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:trim": {
+              "material": "minecraft:amethyst",
+              "pattern": "minecraft:bolt",
+              "show_in_tooltip": true
+            }
+          }
+        },
+        {
+          "function": "minecraft:set_enchantments",
+          "enchantments": {
+            "fluffytg:hermes": {
+              "min": 3,
+              "max": 5
+            }
+          }
+        },
+        {
+          "function": "minecraft:enchant_with_levels",
+          "levels": 20,
+          "options": "#minecraft:on_random_loot"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "fluffytg:hermes": {
+                  "min": 3,
+                  "max": 5
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 6,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_nugget",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 12,
+                "max": 23
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 9
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:amethyst_shard",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:splash_potion",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_potion",
+              "id": "minecraft:strong_healing"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_stack_size": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:amethyst_block",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lapis_lazuli",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 11
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_horse_armor",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 13,
+              "options": "#minecraft:on_random_loot"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_horse_armor",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 15,
+              "options": "#minecraft:on_random_loot"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_horse_armor",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 19,
+              "options": "#minecraft:on_random_loot"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

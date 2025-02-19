@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:iron_pickaxe"
+      },
+      "title": "What a Reach!",
+      "description": "Your tool is just a bitttt longer!!",
+      "frame": "task"
+    },
+    "parent": "fluffytg:enchantmentroot",
+    "criteria": {
+      "getHermes": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "predicates": {
+                "minecraft:enchantments": [
+                  {
+                    "enchantments": "fluffytg:reaching",
+                    "levels": {
+                      "min": 1
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+  

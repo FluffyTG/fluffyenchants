@@ -1,0 +1,74 @@
+{
+  "description": "Curse of Growth",
+  "exclusive_set": "#fluffytg:exclusive/size",
+  "supported_items": "#minecraft:enchantable/armor",
+  "primary_items": "#minecraft:enchantable/armor",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 12,
+    "per_level_above_first": 6
+  },
+  "max_cost": {
+    "base": 23,
+    "per_level_above_first": 12
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "armor"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "id": "fluffytg:growing",
+        "attribute": "minecraft:scale",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.2,
+          "per_level_above_first": 0.1
+        },
+        "operation": "add_multiplied_total"
+      },
+      {
+        "id": "fluffytg:growing2",
+        "attribute": "minecraft:safe_fall_distance",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.15,
+          "per_level_above_first": 0.1
+        },
+        "operation": "add_multiplied_total"
+      },
+      {
+        "id": "fluffytg:growing3",
+        "attribute": "minecraft:jump_strength",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.1,
+          "per_level_above_first": 0.05
+        },
+        "operation": "add_multiplied_total"
+      },
+      {
+        "id": "fluffytg:growing3",
+        "attribute": "minecraft:step_height",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.3,
+          "per_level_above_first": 0.2
+        },
+        "operation": "add_value"
+      },
+      {
+        "id": "fluffytg:growing4",
+        "attribute": "minecraft:max_health",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.15,
+          "per_level_above_first": 0.1
+        },
+        "operation": "add_multiplied_total"
+      }
+    ]
+  }
+}

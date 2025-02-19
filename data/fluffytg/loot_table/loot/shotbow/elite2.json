@@ -1,0 +1,219 @@
+{
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 9
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "fluffytg:shotbow": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Boots of the Dwarven General",
+                "color": "gold",
+                "italic": false,
+                "underlined": true
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "1201",
+                      "type": "minecraft:armor",
+                      "amount": 3,
+                      "operation": "add_value",
+                      "slot": "feet"
+                    },
+                    {
+                      "id": "1202",
+                      "type": "minecraft:armor_toughness",
+                      "amount": 1,
+                      "operation": "add_value",
+                      "slot": "feet"
+                    }
+                  ]
+                },
+                "minecraft:trim": {
+                  "material": "minecraft:amethyst",
+                  "pattern": "minecraft:bolt",
+                  "show_in_tooltip": true
+                },
+                "minecraft:max_damage": 785
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Pants of the Dwarven General",
+                "color": "gold",
+                "italic": false,
+                "underlined": true
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "1201",
+                      "type": "minecraft:armor",
+                      "amount": 7,
+                      "operation": "add_value",
+                      "slot": "legs"
+                    },
+                    {
+                      "id": "1202",
+                      "type": "minecraft:armor_toughness",
+                      "amount": 1,
+                      "operation": "add_value",
+                      "slot": "legs"
+                    }
+                  ]
+                },
+                "minecraft:trim": {
+                  "material": "minecraft:amethyst",
+                  "pattern": "minecraft:bolt",
+                  "show_in_tooltip": true
+                },
+                "minecraft:max_damage": 806
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Armor of the Dwarven General",
+                "color": "gold",
+                "italic": false,
+                "underlined": true
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "1201",
+                      "type": "minecraft:armor",
+                      "amount": 8,
+                      "operation": "add_value",
+                      "slot": "chest"
+                    },
+                    {
+                      "id": "1202",
+                      "type": "minecraft:armor_toughness",
+                      "amount": 1,
+                      "operation": "add_value",
+                      "slot": "chest"
+                    }
+                  ]
+                },
+                "minecraft:trim": {
+                  "material": "minecraft:amethyst",
+                  "pattern": "minecraft:bolt",
+                  "show_in_tooltip": true
+                },
+                "minecraft:max_damage": 841,
+                "minecraft:enchantments": {
+                  "fluffytg:dwarfism": 1
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_helmet",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Helmet of the Dwarven General",
+                "color": "gold",
+                "italic": false,
+                "underlined": true
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "1201",
+                      "type": "minecraft:armor",
+                      "amount": 3,
+                      "operation": "add_value",
+                      "slot": "head"
+                    },
+                    {
+                      "id": "1202",
+                      "type": "minecraft:armor_toughness",
+                      "amount": 1,
+                      "operation": "add_value",
+                      "slot": "head"
+                    }
+                  ]
+                },
+                "minecraft:trim": {
+                  "material": "minecraft:amethyst",
+                  "pattern": "minecraft:bolt",
+                  "show_in_tooltip": true
+                },
+                "minecraft:max_damage": 786
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

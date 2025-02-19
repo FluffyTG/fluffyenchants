@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:knowledge_book",
+      "count": 1
+    },
+    "title": {
+      "text": "Fluffy's Enchants",
+      "bold": false,
+      "italic": false
+    },
+    "description": {
+      "text": "Enchantments"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/adventure.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "fluffytg:root",
+  "criteria": {
+    "killed_by_something": {
+      "trigger": "minecraft:entity_killed_player"
+    },
+    "killed_something": {
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "requirements": [
+    [
+      "killed_something",
+      "killed_by_something"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

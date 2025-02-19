@@ -1,0 +1,43 @@
+{
+    "description": "Reaching",
+    "supported_items": "#fluffytg:enchants/all_tools",
+    "weight": 5,
+    "max_level": 3,
+    "min_cost": {
+      "base": 4,
+      "per_level_above_first": 3
+    },
+    "max_cost": {
+      "base": 27,
+      "per_level_above_first": 5
+    },
+    "anvil_cost": 1,
+    "slots": [
+      "mainhand"
+    ],
+    "effects": {
+      "minecraft:attributes": [
+        {
+          "id": "fluffytg:reaching_block",
+          "attribute": "minecraft:block_interaction_range",
+          "amount": {
+            "type": "minecraft:linear",
+            "base": 0.66,
+            "per_level_above_first": 0.33
+          },
+          "operation": "add_value"
+        },
+        {
+          "id": "fluffytg:reaching_mob",
+          "attribute": "minecraft:entity_interaction_range",
+          "amount": {
+            "type": "minecraft:linear",
+            "base": 0.66,
+            "per_level_above_first": 0.33
+          },
+          "operation": "add_value"
+        }
+      ]
+    }
+  }
+  

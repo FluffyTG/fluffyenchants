@@ -1,0 +1,334 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:popped_chorus_fruit",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 14
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 5,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 12
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:vanishing_curse": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 13,
+                "max": 25
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20,
+                "max": 29
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 10
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:vanishing_curse": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_helmet",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 22,
+                "max": 31
+              },
+              "options": "#minecraft:on_random_loot"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:amethyst",
+                  "pattern": "minecraft:vex"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_chestplate",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 19,
+                "max": 31
+              },
+              "options": "#minecraft:on_random_loot"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "fluffytg:jetpack": 1
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:amethyst",
+                  "pattern": "minecraft:vex"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_leggings",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20,
+                "max": 32
+              },
+              "options": "#minecraft:on_random_loot"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:amethyst",
+                  "pattern": "minecraft:vex"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_boots",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "fluffytg:anti_gravity": 1
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 22,
+                "max": 32
+              },
+              "options": "#minecraft:on_random_loot"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:amethyst",
+                  "pattern": "minecraft:vex"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 23,
+                "max": 35
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_pickaxe",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 23,
+                "max": 37
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_axe",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 23,
+                "max": 36
+              },
+              "options": "#minecraft:on_random_loot"
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot",
+              "only_compatible": true
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot",
+              "only_compatible": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_hoe",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 25,
+                "max": 37
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_shovel",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 25,
+                "max": 37
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:vex_armor_trim_smithing_template",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "fluffytg:anti_gravity": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "fluffytg:jetpack": 1
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

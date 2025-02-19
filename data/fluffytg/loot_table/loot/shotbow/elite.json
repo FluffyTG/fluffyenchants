@@ -1,0 +1,132 @@
+{
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "fluffytg:adv_sharpness": 1
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Sword of the Fallen Dwarf",
+                "color": "gold",
+                "italic": false,
+                "underlined": true
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_pickaxe",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "fluffytg:adv_efficiency": 2
+              }
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Pickaxe of the Dwarven Miner",
+                "color": "gold",
+                "italic": false,
+                "underlined": true
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:max_damage": 2000
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Bow of the Dwarven General",
+                "color": "gold",
+                "italic": false,
+                "underlined": true
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:attribute_modifiers": {
+                  "modifiers": [
+                    {
+                      "id": "1200",
+                      "type": "minecraft:movement_speed",
+                      "amount": 0.08,
+                      "operation": "add_multiplied_total",
+                      "slot": "mainhand"
+                    },
+                    {
+                      "id": "1201",
+                      "type": "minecraft:armor",
+                      "amount": 4,
+                      "operation": "add_value",
+                      "slot": "mainhand"
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "fluffytg:shotbow": 2,
+                "minecraft:power": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "fluffytg:shotbow": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 3,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

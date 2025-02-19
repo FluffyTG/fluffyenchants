@@ -1,0 +1,2 @@
+execute unless score @s hermes_runtime matches 0..100 at @s run scoreboard players add @s hermes_runtime 1
+execute unless score @s hermes_grounded matches 0..1 at @s run scoreboard players add @s hermes_runtime 1

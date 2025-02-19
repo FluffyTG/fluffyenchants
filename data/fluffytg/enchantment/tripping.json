@@ -1,0 +1,29 @@
+{
+  "description": "Curse of Tripping",
+  "supported_items": "#minecraft:enchantable/foot_armor",
+  "primary_items": "#minecraft:foot_armor",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 2,
+    "per_level_above_first": 7
+  },
+  "max_cost": {
+    "base": 45,
+    "per_level_above_first": 13
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "feet"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "id": "fluffytg:tripping",
+        "attribute": "minecraft:safe_fall_distance",
+        "amount": -1.5,
+        "operation": "add_value"
+      }
+    ]
+  }
+}

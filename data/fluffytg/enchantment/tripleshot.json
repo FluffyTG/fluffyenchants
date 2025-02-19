@@ -1,0 +1,45 @@
+{
+  "description": "Triple Shot",
+  "supported_items": "#minecraft:enchantable/bow",
+  "primary_items": "#minecraft:enchantable/bow",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 1
+  },
+  "max_cost": {
+    "base": 14,
+    "per_level_above_first": 3
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:projectile_count": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": 2
+        }
+      }
+    ],
+    "minecraft:projectile_spread": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": 9
+        }
+      }
+    ],
+    "minecraft:projectile_piercing": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": 2
+        }
+      }
+    ]
+  }
+}

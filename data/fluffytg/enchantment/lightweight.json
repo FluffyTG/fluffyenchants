@@ -1,0 +1,40 @@
+{
+  "description": "Lightweight",
+  "exclusive_set": "#fluffytg:exclusive/speed",
+  "supported_items": "#minecraft:enchantable/armor",
+  "primary_items": "#minecraft:enchantable/armor",
+  "weight": 4,
+  "max_level": 2,
+  "min_cost": {
+    "base": 15,
+    "per_level_above_first": 1
+  },
+  "max_cost": {
+    "base": 22,
+    "per_level_above_first": 5
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "armor"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "id": "fluffytg:lightweight",
+        "attribute": "minecraft:armor",
+        "amount": -1,
+        "operation": "add_value"
+      },
+      {
+        "id": "fluffytg:lightweight2",
+        "attribute": "minecraft:movement_speed",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.12,
+          "per_level_above_first": 0.02
+        },
+        "operation": "add_multiplied_total"
+      }
+    ]
+  }
+}

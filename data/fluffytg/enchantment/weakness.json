@@ -1,0 +1,29 @@
+{
+  "description": "Curse of Weakness",
+  "supported_items": "#minecraft:enchantable/armor",
+  "primary_items": "#minecraft:enchantable/armor",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 12,
+    "per_level_above_first": 1
+  },
+  "max_cost": {
+    "base": 20,
+    "per_level_above_first": 7
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "armor"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "id": "fluffytg:weakness",
+        "attribute": "minecraft:max_health",
+        "amount": -2,
+        "operation": "add_value"
+      }
+    ]
+  }
+}

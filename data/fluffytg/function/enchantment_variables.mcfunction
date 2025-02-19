@@ -1,0 +1,1 @@
+scoreboard objectives add poseidon_cooldown dummy

@@ -1,0 +1,35 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "fluffytg:loot/hermes_trial/researchcrate",
+            "weight": 8
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "fluffytg:loot/banishing/researchcrate",
+            "weight": 5
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "fluffytg:loot/dwarvish_crypt/researchcrate",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "fluffytg:loot/misc/overworld/underground_railway/researchcrate",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "fluffytg:loot/poseidon_trial/researchcrate",
+            "weight": 1
+          }
+        ]
+      }
+    ]
+  }
+  

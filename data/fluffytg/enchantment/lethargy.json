@@ -1,0 +1,29 @@
+{
+  "description": "Curse of Lethargy",
+  "supported_items": "#minecraft:enchantable/armor",
+  "primary_items": "#minecraft:enchantable/armor",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 12,
+    "per_level_above_first": 4
+  },
+  "max_cost": {
+    "base": 25,
+    "per_level_above_first": 7
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "armor"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "id": "fluffytg:lethargy",
+        "attribute": "minecraft:movement_speed",
+        "amount": -0.15,
+        "operation": "add_multiplied_total"
+      }
+    ]
+  }
+}

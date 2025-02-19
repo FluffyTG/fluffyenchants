@@ -1,0 +1,225 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 13,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:nether/etherealbrewery/under/hall/hall1",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 13,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:nether/etherealbrewery/under/hall/hall2",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 13,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:nether/etherealbrewery/under/hall/hall3",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 13,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:nether/etherealbrewery/under/hall/hall4",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:nether/etherealbrewery/under/room/room1",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:nether/etherealbrewery/under/room/room2",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:nether/etherealbrewery/under/room/room3",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:nether/etherealbrewery/under/room/room4",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:nether/etherealbrewery/under/room/room5",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:nether/etherealbrewery/under/room/room6",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:nether/etherealbrewery/under/room/room7",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:nether/etherealbrewery/under/room/room8",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:nether/etherealbrewery/under/room/room9",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:nether/etherealbrewery/under/room/room10",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:nether/etherealbrewery/under/room/room11",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:nether/etherealbrewery/under/room/room12",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 6,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:nether/etherealbrewery/under/room/room13",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:nether/etherealbrewery/under/mid/mid1",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:nether/etherealbrewery/under/mid/mid2",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:nether/etherealbrewery/under/mid/mid3",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:nether/etherealbrewery/under/mid/mid4",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:nether/etherealbrewery/room/bigroom2",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

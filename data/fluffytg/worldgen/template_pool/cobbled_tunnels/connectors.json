@@ -1,0 +1,205 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 16,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:overworld/cobbled_tunnels/midhall/midhall1",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:overworld/cobbled_tunnels/midhall/midhall2",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:overworld/cobbled_tunnels/midhall/midhall3",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 12,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:overworld/cobbled_tunnels/midhall/midhall4",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:overworld/cobbled_tunnels/hallway/hall1",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:overworld/cobbled_tunnels/hallway/hall2",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:overworld/cobbled_tunnels/hallway/hall3",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:overworld/cobbled_tunnels/hallway/hall4",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:overworld/cobbled_tunnels/hallway/hall5",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:overworld/cobbled_tunnels/hallway/hall6",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:overworld/cobbled_tunnels/hallway/hall7",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:overworld/cobbled_tunnels/room/room1",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:overworld/cobbled_tunnels/room/room2",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:overworld/cobbled_tunnels/room/room3",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:overworld/cobbled_tunnels/room/room5",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:overworld/cobbled_tunnels/room/room6",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:overworld/cobbled_tunnels/room/room7",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:overworld/cobbled_tunnels/room/room8",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:overworld/cobbled_tunnels/room/room9",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "fluffytg:overworld/cobbled_tunnels/room/room10",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

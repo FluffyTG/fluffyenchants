@@ -1,0 +1,46 @@
+{
+    "description": {
+      "text": "Vortex Arrow",
+      "type": "text",
+      "color": "dark_aqua",
+      "shadow_color": 2105429
+    },
+    "supported_items": "#minecraft:enchantable/bow",
+    "primary_items": "#minecraft:enchantable/bow",
+    "weight": 1,
+    "max_level": 1,
+    "min_cost": {
+      "base": 7,
+      "per_level_above_first": 2
+    },
+    "max_cost": {
+      "base": 23,
+      "per_level_above_first": 6
+    },
+    "anvil_cost": 1,
+    "slots": [
+      "mainhand"
+    ],
+    "effects": {
+      "minecraft:projectile_spawned": [
+        {
+          "requirements": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "#minecraft:arrows",
+              "location": {
+                "fluid": {
+                  "fluids": "#minecraft:water"
+                }
+              }
+            }
+          },
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "fluffytg:vortex_arrow"
+          }
+        }
+      ]
+    }
+  }

@@ -1,0 +1,1 @@
+execute unless score @s poseidon_cooldown matches 0..100 at @s run scoreboard players add @s poseidon_cooldown 0

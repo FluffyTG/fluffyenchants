@@ -1,0 +1,33 @@
+{
+    "description": "Galloping",
+    "supported_items": "#fluffytg:new_enchantables/all_horse_armor",
+    "weight": 3,
+    "max_level": 3,
+    "min_cost": {
+      "base": 5,
+      "per_level_above_first": 3
+    },
+    "max_cost": {
+      "base": 20,
+      "per_level_above_first": 6
+    },
+    "anvil_cost": 1,
+    "slots": [
+      "armor"
+    ],
+    "effects": {
+      "minecraft:attributes": [
+        {
+          "id": "fluffytg:galloping",
+          "attribute": "minecraft:movement_speed",
+          "amount": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.25
+          },
+          "operation": "add_multiplied_total"
+        }
+      ]
+    }
+  }
+  

@@ -1,0 +1,41 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:chiseled_tuff",
+        "count": 1
+      },
+      "title": {
+        "text": "Finding Fort Lumnis",
+        "italic": false
+      },
+      "description": {
+        "translate": "A fort that did not survive over the years... Their combat techniques were unique among the other forts.."
+      }
+    },
+    "parent": "fluffytg:dungeonsroot",
+    "criteria": {
+      "minecraft_trials_edition": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "fluffytg:fort_lumnis"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "minecraft_trials_edition"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }
+  

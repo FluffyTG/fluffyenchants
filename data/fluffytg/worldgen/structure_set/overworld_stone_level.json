@@ -1,0 +1,23 @@
+{
+  "structures": [
+    {
+      "structure": "fluffytg:hermes_trial",
+      "weight": 4
+    },
+    {
+      "structure": "fluffytg:misc/underground_railway",
+      "weight": 4
+    },
+    {
+      "structure": "fluffytg:poseidon_trial",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 2081574504,
+    "frequency": 0.2,
+    "spacing": 20,
+    "separation": 13
+  }
+}

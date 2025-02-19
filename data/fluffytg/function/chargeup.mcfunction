@@ -1,0 +1,10 @@
+playsound minecraft:block.amethyst_block.step block @s ~ ~ ~ 1 1.0
+playsound minecraft:block.amethyst_block.step block @s ~ ~ ~ 1 1.1
+playsound minecraft:block.amethyst_block.step block @s ~ ~ ~ 1 1.2
+playsound minecraft:block.amethyst_block.step block @s ~ ~ ~ 1 1.3
+playsound minecraft:block.amethyst_block.step block @s ~ ~ ~ 1 1.4
+playsound minecraft:block.amethyst_block.step block @s ~ ~ ~ 1 1.5
+playsound minecraft:block.amethyst_block.step block @s ~ ~ ~ 1 1.6
+playsound minecraft:block.amethyst_block.step block @s ~ ~ ~ 1 1.7
+playsound minecraft:block.amethyst_block.step block @s ~ ~ ~ 1 1.8
+playsound minecraft:block.amethyst_block.step block @s ~ ~ ~ 5 1.9

@@ -1,0 +1,54 @@
+{
+  "description": "Durable",
+  "exclusive_set": "#fluffytg:exclusive/speed",
+  "supported_items": "#minecraft:enchantable/armor",
+  "primary_items": "#minecraft:enchantable/armor",
+  "weight": 4,
+  "max_level": 2,
+  "min_cost": {
+    "base": 14,
+    "per_level_above_first": 6
+  },
+  "max_cost": {
+    "base": 26,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "armor"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "id": "fluffytg:durable",
+        "attribute": "minecraft:armor",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.5,
+          "per_level_above_first": 0.5
+        },
+        "operation": "add_value"
+      },
+      {
+        "id": "fluffytg:durable2",
+        "attribute": "minecraft:armor_toughness",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.5,
+          "per_level_above_first": 0.75
+        },
+        "operation": "add_value"
+      },
+      {
+        "id": "fluffytg:durable3",
+        "attribute": "minecraft:movement_speed",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -0.08,
+          "per_level_above_first": -0.02
+        },
+        "operation": "add_multiplied_total"
+      }
+    ]
+  }
+}

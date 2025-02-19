@@ -1,0 +1,38 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:leather_boots",
+        "components": {
+          "minecraft:dyed_color": {
+            "rgb": 40451
+          }
+        }
+      },
+      "title": "Hermes Boots",
+      "description": "Acquire Hermes Boots to harness enhanced speed when running!",
+      "frame": "task"
+    },
+    "parent": "fluffytg:dungeon/hermes_trial",
+    "criteria": {
+      "getHermes": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "predicates": {
+                "minecraft:enchantments": [
+                  {
+                    "enchantments": "fluffytg:hermes",
+                    "levels": {
+                      "min": 1
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,1 @@
+ride @n[type=!minecraft:arrow] mount @s

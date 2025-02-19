@@ -1,0 +1,41 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:mossy_cobblestone",
+        "count": 1
+      },
+      "title": {
+        "text": "A Speedster's Resolve",
+        "italic": false
+      },
+      "description": {
+        "translate": "Enter the home of the deity of speed, the cobbled tunnels..."
+      }
+    },
+    "parent": "fluffytg:dungeonsroot",
+    "criteria": {
+      "minecraft_trials_edition": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "fluffytg:cobbled_tunnels"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "minecraft_trials_edition"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }
+  

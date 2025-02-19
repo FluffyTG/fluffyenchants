@@ -1,0 +1,53 @@
+{
+  "description": "Curse of Sacrifice",
+  "supported_items": "#minecraft:enchantable/sword",
+  "primary_items": "#minecraft:enchantable/sword",
+  "weight": 1,
+  "max_level": 5,
+  "min_cost": {
+    "base": 5,
+    "per_level_above_first": 1
+  },
+  "max_cost": {
+    "base": 18,
+    "per_level_above_first": 2
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "attacker",
+        "effect": {
+          "type": "minecraft:damage_entity",
+          "damage_type": "minecraft:generic",
+          "min_damage": {
+            "type": "minecraft:linear",
+            "base": 3,
+            "per_level_above_first": 1
+          },
+          "max_damage": {
+            "type": "minecraft:linear",
+            "base": 4,
+            "per_level_above_first": 1
+          }
+        }
+      }
+    ],
+   "minecraft:attributes": [
+      {
+        "id": "fluffytg:doubleedged",
+        "attribute": "minecraft:attack_damage",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 1.33,
+          "per_level_above_first": 1.33
+        },
+        "operation": "add_value"
+      }
+    ]
+  }
+}

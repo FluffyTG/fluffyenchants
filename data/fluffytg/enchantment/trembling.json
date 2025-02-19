@@ -1,0 +1,29 @@
+{
+  "description": "Curse of Trembling",
+  "supported_items": "#fluffytg:enchants/trembling",
+  "primary_items": "#fluffytg:enchants/trembling",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 4,
+    "per_level_above_first": 1
+  },
+  "max_cost": {
+    "base": 15,
+    "per_level_above_first": 8
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "id": "fluffytg:trembling",
+        "attribute": "minecraft:attack_damage",
+        "amount": -0.5,
+        "operation": "add_multiplied_total"
+      }
+    ]
+  }
+}

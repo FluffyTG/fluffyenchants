@@ -1,0 +1,91 @@
+{
+  "description": "Fart Bomb",
+  "supported_items": "#minecraft:enchantable/leg_armor",
+  "primary_items": "#minecraft:enchantable/leg_armor",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 3
+  },
+  "max_cost": {
+    "base": 15,
+    "per_level_above_first": 5
+  },
+  "anvil_cost": 10,
+  "slots": [
+    "legs"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:run_function",
+              "function": "fluffytg:fartbomb"
+            },
+            {
+              "type": "minecraft:change_item_damage",
+              "amount": 10
+            }
+          ]
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "flags": {
+              "is_sneaking": true
+            },
+            "equipment": {
+              "legs": {
+                "items": "#minecraft:enchantable/leg_armor",
+                "predicates": {
+                  "minecraft:damage": {
+                    "durability": {
+                      "min": 21
+                    }
+                  }
+                }
+              }
+            },
+            "periodic_tick": 75
+          }
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:spawn_particles",
+          "particle": {
+            "type": "minecraft:flash"
+          },
+          "horizontal_position": {
+            "type": "in_bounding_box"
+          },
+          "vertical_position": {
+            "type": "in_bounding_box"
+          },
+          "horizontal_velocity": {
+            "base": 0.1
+          },
+          "vertical_velocity": {
+            "base": 0.1
+          },
+          "speed": 0.1
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "flags": {
+              "is_sneaking": true
+            },
+            "periodic_tick": 25
+          }
+        }
+      }
+    ]
+  }
+}

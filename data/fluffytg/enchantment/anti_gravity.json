@@ -1,0 +1,38 @@
+{
+  "description": {
+    "text": "Anti-Gravity",
+    "color": "dark_aqua"
+  },
+  "supported_items": "#minecraft:enchantable/foot_armor",
+  "primary_items": "#minecraft:enchantable/foot_armor",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 18,
+    "per_level_above_first": 3
+  },
+  "max_cost": {
+    "base": 29,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "feet"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "id": "fluffytg:anti_gravity",
+        "attribute": "minecraft:gravity",
+        "amount": -0.85,
+        "operation": "add_multiplied_total"
+      },
+      {
+        "id": "fluffytg:anti_gravity_falling",
+        "attribute": "minecraft:safe_fall_distance",
+        "amount": 3,
+        "operation": "add_value"
+      }
+    ]
+  }
+}

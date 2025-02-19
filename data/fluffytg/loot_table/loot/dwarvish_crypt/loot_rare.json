@@ -1,0 +1,222 @@
+{
+  "pools": [
+    {
+      "rolls": 10,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "weight": 27,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_carrot",
+          "weight": 16,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Mighty Golden Carrot",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:consumable": {
+                  "consume_seconds": 2,
+                  "animation": "eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:strength",
+                          "amplifier": 0,
+                          "duration": 120
+                        }
+                      ],
+                      "probability": 1
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 14,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 3,
+                "max": 14
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 13,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_helmet",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "fluffytg:dwarfism": 1
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 9,
+              "options": "#minecraft:on_random_loot"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:iron",
+                  "pattern": "minecraft:wayfinder"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_chestplate",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "fluffytg:dwarfism": 1
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 9,
+              "options": "#minecraft:on_random_loot"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:iron",
+                  "pattern": "minecraft:wayfinder"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_leggings",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "fluffytg:dwarfism": 1
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 9,
+              "options": "#minecraft:on_random_loot"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:iron",
+                  "pattern": "minecraft:wayfinder"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_boots",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "fluffytg:dwarfism": 1
+              }
+            },
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 9,
+              "options": "#minecraft:on_random_loot"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:iron",
+                  "pattern": "minecraft:wayfinder"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

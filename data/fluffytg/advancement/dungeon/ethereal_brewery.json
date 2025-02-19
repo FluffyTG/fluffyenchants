@@ -1,0 +1,41 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:quartz_bricks",
+        "count": 1
+      },
+      "title": {
+        "text": "The Brewery of an Old King",
+        "italic": false
+      },
+      "description": {
+        "translate": "Locate the Ethereal Brewery, a fiery abyss.. Perhaps a potion of sorts can aid you."
+      }
+    },
+    "parent": "fluffytg:dungeonsroot",
+    "criteria": {
+      "minecraft_trials_edition": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "fluffytg:ethereal_brewery"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "minecraft_trials_edition"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }
+  

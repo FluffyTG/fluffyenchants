@@ -1,0 +1,36 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 20,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "fluffytg:overworld/poseidon_trial/floor1/drop/drop1",
+          "override_liquid_settings": "apply_waterlogging",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "fluffytg:overworld/poseidon_trial/floor0/topper/topper1",
+          "override_liquid_settings": "apply_waterlogging",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 1,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "fluffytg:overworld/poseidon_trial/floor0/topper/topper2",
+          "override_liquid_settings": "apply_waterlogging",
+          "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  

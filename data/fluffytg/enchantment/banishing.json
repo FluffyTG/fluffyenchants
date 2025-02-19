@@ -1,0 +1,60 @@
+{
+  "description": {
+    "text": "Banishing",
+    "color": "dark_aqua"
+  },
+  "exclusive_set": "#fluffytg:exclusive/knocking",
+  "supported_items": "#fluffytg:enchants/banishing",
+  "primary_items": "#fluffytg:enchants/banishing",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 18,
+    "per_level_above_first": 5
+  },
+  "max_cost": {
+    "base": 29,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:knockback": [
+      {
+        "effect": {
+          "type": "minecraft:add",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 6,
+            "per_level_above_first": 4
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:any_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "attacker",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "items": "#minecraft:enchantable/sharp_weapon"
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "direct_attacker",
+              "predicate": {
+                "type": "#minecraft:arrows"
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

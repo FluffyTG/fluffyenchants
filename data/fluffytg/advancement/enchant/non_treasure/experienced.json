@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:iron_sword"
+      },
+      "title": "XP, on the double!!",
+      "description": "Get the Experienced enchant, where your tool gets more experienced!!",
+      "frame": "task"
+    },
+    "parent": "fluffytg:enchantmentroot",
+    "criteria": {
+      "getHermes": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "predicates": {
+                "minecraft:enchantments": [
+                  {
+                    "enchantments": "fluffytg:experienced",
+                    "levels": {
+                      "min": 1
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+  

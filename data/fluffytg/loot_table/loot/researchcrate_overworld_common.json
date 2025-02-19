@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "fluffytg:loot/hermes_trial/researchcrate",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "fluffytg:loot/banishing/researchcrate",
+            "weight": 2
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,40 @@
+{
+  "description": "Curse of Fright",
+  "supported_items": "#minecraft:enchantable/armor",
+  "primary_items": "#minecraft:enchantable/armor",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 12,
+    "per_level_above_first": 3
+  },
+  "max_cost": {
+    "base": 25,
+    "per_level_above_first": 13
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "armor"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "victim",
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:apply_mob_effect",
+              "to_apply": "minecraft:blindness",
+              "min_duration": 3,
+              "max_duration": 10,
+              "min_amplifier": 0,
+              "max_amplifier": 0
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

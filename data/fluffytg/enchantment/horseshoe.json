@@ -1,0 +1,43 @@
+{
+    "description": "Horseshoe",
+    "supported_items": "#fluffytg:new_enchantables/all_horse_armor",
+    "weight": 3,
+    "max_level": 3,
+    "min_cost": {
+      "base": 5,
+      "per_level_above_first": 3
+    },
+    "max_cost": {
+      "base": 20,
+      "per_level_above_first": 6
+    },
+    "anvil_cost": 1,
+    "slots": [
+      "armor"
+    ],
+    "effects": {
+      "minecraft:attributes": [
+        {
+          "id": "fluffytg:horseshoe",
+          "attribute": "minecraft:jump_strength",
+          "amount": {
+            "type": "minecraft:linear",
+            "base": 0.35,
+            "per_level_above_first": 0.2
+          },
+          "operation": "add_multiplied_total"
+        },
+        {
+          "id": "fluffytg:horseshoe",
+          "attribute": "minecraft:safe_fall_distance",
+          "amount": {
+            "type": "minecraft:linear",
+            "base": 0.65,
+            "per_level_above_first": 0.2
+          },
+          "operation": "add_multiplied_total"
+        }
+      ]
+    }
+  }
+  

@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "fluffytg:loot/dwarvish_crypt/researchcrate",
+            "weight": 4
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "fluffytg:loot/misc/overworld/underground_railway/researchcrate",
+            "weight": 2
+          }
+        ]
+      }
+    ]
+  }
+  

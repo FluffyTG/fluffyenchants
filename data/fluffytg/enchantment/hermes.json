@@ -1,0 +1,110 @@
+{
+  "description": {
+    "text": "Hermes",
+    "color": "dark_aqua"
+  },
+  "supported_items": "#minecraft:enchantable/armor",
+  "primary_items": "#minecraft:enchantable/armor",
+  "weight": 1,
+  "max_level": 5,
+  "min_cost": {
+    "base": 8,
+    "per_level_above_first": 1
+  },
+  "max_cost": {
+    "base": 21,
+    "per_level_above_first": 2
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "feet"
+  ],
+  "effects": {
+    "minecraft:location_changed": [
+      {
+        "effect": {
+          "type": "minecraft:attribute",
+          "id": "fluffytg:hermes_speed",
+          "attribute": "minecraft:movement_speed",
+          "amount": {
+            "type": "minecraft:linear",
+            "base": 0.8,
+            "per_level_above_first": 0.275
+          },
+          "operation": "add_multiplied_total"
+        },
+        "requirements": {
+          "condition": "minecraft:any_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": [
+                  "minecraft:stray",
+                  "minecraft:bogged",
+                  "minecraft:horse",
+                  "minecraft:skeleton",
+                  "minecraft:husk",
+                  "minecraft:zombie",
+                  "minecraft:creeper"
+                ]
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "flags": {
+                  "is_sprinting": true
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "effect": {
+          "type": "minecraft:attribute",
+          "id": "fluffytg:hermes_step",
+          "attribute": "minecraft:step_height",
+          "amount": {
+            "type": "minecraft:linear",
+            "base": 0.5,
+            "per_level_above_first": 0.25
+          },
+          "operation": "add_value"
+        },
+        "requirements": {
+          "condition": "minecraft:any_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": [
+                  "minecraft:stray",
+                  "minecraft:bogged",
+                  "minecraft:horse",
+                  "minecraft:skeleton",
+                  "minecraft:husk",
+                  "minecraft:zombie",
+                  "minecraft:creeper"
+                ]
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "flags": {
+                  "is_sprinting": true
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

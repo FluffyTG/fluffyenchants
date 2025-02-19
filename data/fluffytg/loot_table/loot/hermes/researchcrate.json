@@ -1,0 +1,119 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "fluffytg:cobbled_tunnels",
+              "decoration": "target_x",
+              "skip_existing_chunks": true
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "text": "Speedster's Explorer Map",
+                "italic": false
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "fluffytg:cobbled_tunnels",
+              "decoration": "target_x",
+              "skip_existing_chunks": false
+            },
+            {
+              "function": "minecraft:set_name",
+              "target": "item_name",
+              "name": {
+                "text": "Speedster's Explorer Map",
+                "italic": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 3,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:compass"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:clock"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 10
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:feather",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 5
+              },
+              "add": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 5
+              },
+              "add": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

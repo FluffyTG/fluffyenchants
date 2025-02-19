@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:trident"
+      },
+      "title": "Poseidon's Might!",
+      "description": "Get Poseidons Might, and fight fiercely against all your mortal enemies!!",
+      "frame": "task"
+    },
+    "parent": "fluffytg:dungeon/poseidon_trial",
+    "criteria": {
+      "getHermes": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "predicates": {
+                "minecraft:enchantments": [
+                  {
+                    "enchantments": "fluffytg:poseidon_might",
+                    "levels": {
+                      "min": 1
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:iron_helmet"
+      },
+      "title": "Lava Diver",
+      "description": "Dive into lava with your newfound helmet!",
+      "frame": "task"
+    },
+    "parent": "fluffytg:dungeon/ethereal_brewery",
+    "criteria": {
+      "getHermes": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "predicates": {
+                "minecraft:enchantments": [
+                  {
+                    "enchantments": "fluffytg:lavadiver",
+                    "levels": {
+                      "min": 1
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+  

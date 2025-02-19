@@ -1,0 +1,466 @@
+{
+  "pools": [
+    {
+      "rolls": 5,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_block",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sponge",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Spongebob Minecraftpants",
+                "color": "gold",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "Who lives in a beetroot under the sea...",
+                  "color": "white",
+                  "italic": false
+                }
+              ],
+              "mode": "insert"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald_block",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "fluffytg:poseidon_vitality",
+                "fluffytg:magic_protection",
+                "fluffytg:vortex_arrow",
+                "minecraft:loyalty",
+                "minecraft:unbreaking",
+                "minecraft:lure",
+                "minecraft:luck_of_the_sea",
+                "minecraft:impaling",
+                "minecraft:aqua_affinity",
+                "minecraft:respiration",
+                "minecraft:depth_strider"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_helmet",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 14,
+              "options": "#minecraft:on_random_loot"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:iron",
+                  "pattern": "minecraft:coast"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trident",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "fluffytg:poseidon_vitality": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nautilus_shell",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wet_sponge",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 11
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 6,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 11,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 11,
+                "max": 15
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:tube_coral",
+              "weight": 10,
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 3
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:tube_coral_fan",
+              "weight": 10,
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 3
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:tube_coral_block",
+              "weight": 10,
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 3
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:horn_coral",
+              "weight": 10,
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 3
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:horn_coral_fan",
+              "weight": 10,
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 3
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:horn_coral_block",
+              "weight": 10,
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 3
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:bubble_coral",
+              "weight": 10,
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 3
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:bubble_coral_fan",
+              "weight": 10,
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 3
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:bubble_coral_block",
+              "weight": 10,
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 3
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:fire_coral",
+              "weight": 10,
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 3
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:fire_coral_fan",
+              "weight": 10,
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 3
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:fire_coral_block",
+              "weight": 10,
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 3
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:brain_coral",
+              "weight": 10,
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 3
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:brain_coral_fan",
+              "weight": 10,
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 3
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:brain_coral_block",
+              "weight": 10,
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 3
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 8
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:prismarine_shard",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:prismarine_crystals",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "pools": [
+    {
+      "rolls": 5,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 47,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 11,
+                "max": 14
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "weight": 45,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8,
+                "max": 15
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 43,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "weight": 30,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "Dwarven Bow",
+                "color": "blue",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot",
+              "only_compatible": true
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "fluffytg:shotbow": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_axe",
+          "weight": 28,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot",
+              "only_compatible": true
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "fluffytg:shotbow": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "⭐ Bow of the Dwarven King ⭐",
+                "color": "gold",
+                "italic": false,
+                "underlined": true
+              }
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "minecraft:power": 2,
+                "fluffytg:shotbow": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

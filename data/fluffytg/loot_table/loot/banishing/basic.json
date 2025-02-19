@@ -1,0 +1,248 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tuff",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 50,
+                "max": 78
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 5,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:copper_ingot",
+          "weight": 7,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8,
+                "max": 21
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "♦ Lumnis Blade ♦",
+                "color": "gold",
+                "italic": false,
+                "underlined": true
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "text": "⭐⭐",
+                  "color": "aqua",
+                  "bold": true,
+                  "italic": false
+                }
+              ],
+              "mode": "insert"
+            },
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "fluffytg:banishing": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "fluffytg:banishing": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 17
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "target": "item_name",
+              "name": {
+                "text": "Shield of a Fallen General",
+                "color": "gold",
+                "bold": false,
+                "italic": false,
+                "underlined": true
+              }
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:banner_patterns": [
+                  {
+                    "pattern": "minecraft:base",
+                    "color": "gray"
+                  },
+                  {
+                    "pattern": "minecraft:cross",
+                    "color": "white"
+                  },
+                  {
+                    "pattern": "minecraft:circle",
+                    "color": "white"
+                  }
+                ]
+              }
+            },
+            {
+              "function": "minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "id": "4",
+                  "attribute": "minecraft:armor",
+                  "amount": {
+                    "min": 1,
+                    "max": 5
+                  },
+                  "operation": "add_value",
+                  "slot": "offhand"
+                },
+                {
+                  "id": "4",
+                  "attribute": "minecraft:movement_speed",
+                  "amount": {
+                    "min": -0.08,
+                    "max": -0.03
+                  },
+                  "operation": "add_multiplied_total",
+                  "slot": "offhand"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:silence_armor_trim_smithing_template",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:book",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:damaged_anvil",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_enchantments",
+              "enchantments": {
+                "fluffytg:banishing": 2
+              }
+            },
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": "#minecraft:on_random_loot"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

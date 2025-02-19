@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "fluffytg:eternal_archives",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 998140925,
+    "frequency": 0.2,
+    "spread_type": "linear",
+    "spacing": 20,
+    "separation": 13
+  }
+}

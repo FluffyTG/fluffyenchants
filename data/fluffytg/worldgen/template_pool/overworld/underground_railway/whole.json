@@ -1,0 +1,96 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 30,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "fluffytg:overworld/underground_railway/rail/rail5",
+          "override_liquid_settings": "ignore_waterlogging",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 22,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "fluffytg:overworld/underground_railway/rail/rail8",
+          "override_liquid_settings": "ignore_waterlogging",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 7,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "fluffytg:overworld/underground_railway/stops/stop1",
+          "override_liquid_settings": "ignore_waterlogging",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 7,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "fluffytg:overworld/underground_railway/stops/stop2",
+          "override_liquid_settings": "ignore_waterlogging",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 4,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "fluffytg:overworld/underground_railway/stops/stop3",
+          "override_liquid_settings": "ignore_waterlogging",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 16,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "fluffytg:overworld/underground_railway/stops/stop4",
+          "override_liquid_settings": "ignore_waterlogging",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 13,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "fluffytg:overworld/underground_railway/stops/stop5",
+          "override_liquid_settings": "ignore_waterlogging",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 10,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "fluffytg:overworld/underground_railway/stops/stop6",
+          "override_liquid_settings": "ignore_waterlogging",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 12,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "fluffytg:overworld/underground_railway/stops/stop7",
+          "override_liquid_settings": "ignore_waterlogging",
+          "processors": "minecraft:empty"
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,75 @@
+{
+  "description": {
+    "text": "Lava Diver",
+    "color": "dark_aqua"
+  },
+  "exclusive_set": "minecraft:respiration",
+  "supported_items": "#minecraft:enchantable/head_armor",
+  "primary_items": "#minecraft:enchantable/head_armor",
+  "weight": 1,
+  "max_level": 2,
+  "min_cost": {
+    "base": 14,
+    "per_level_above_first": 1
+  },
+  "max_cost": {
+    "base": 21,
+    "per_level_above_first": 5
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "head"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:apply_mob_effect",
+          "to_apply": "minecraft:fire_resistance",
+          "min_duration": 13,
+          "max_duration": 15,
+          "min_amplifier": 0,
+          "max_amplifier": 0
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "fluid": {
+                "fluids": "#minecraft:lava"
+              }
+            },
+            "movement_affected_by": {
+              "fluid": {
+                "fluids": "#minecraft:lava"
+              }
+            }
+          }
+        }
+      }
+    ],
+    "minecraft:attributes": [
+      {
+        "id": "fluffytg:lavadiver",
+        "attribute": "minecraft:movement_speed",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -0.8,
+          "per_level_above_first": 0.2
+        },
+        "operation": "add_multiplied_total"
+      },
+      {
+        "id": "fluffytg:lavadiver2",
+        "attribute": "minecraft:jump_strength",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -0.4,
+          "per_level_above_first": 0.2
+        },
+        "operation": "add_multiplied_total"
+      }
+    ]
+  }
+}

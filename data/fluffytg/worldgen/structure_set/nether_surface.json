@@ -1,0 +1,20 @@
+{
+  "structures": [
+    {
+      "structure": "fluffytg:ethereal_brewery",
+      "weight": 1
+    },
+    {
+      "structure": "fluffytg:maps/nether",
+      "weight": 4
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1441597302,
+    "frequency": 0.2,
+    "spread_type": "linear",
+    "spacing": 20,
+    "separation": 13
+  }
+}

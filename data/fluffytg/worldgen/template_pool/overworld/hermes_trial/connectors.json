@@ -1,0 +1,186 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+          {
+            "weight": 20,
+            "element": {
+              "element_type": "minecraft:single_pool_element",
+              "projection": "rigid",
+              "location": "fluffytg:overworld/hermes_trial/halls/str1",
+              "override_liquid_settings": "apply_waterlogging",
+              "processors": "minecraft:empty"
+            }
+          },
+          {
+            "weight": 20,
+            "element": {
+              "element_type": "minecraft:single_pool_element",
+              "projection": "rigid",
+              "location": "fluffytg:overworld/hermes_trial/halls/turn1",
+              "override_liquid_settings": "apply_waterlogging",
+              "processors": "minecraft:empty"
+            }
+          },
+          {
+            "weight": 20,
+            "element": {
+              "element_type": "minecraft:single_pool_element",
+              "projection": "rigid",
+              "location": "fluffytg:overworld/hermes_trial/halls/tri1",
+              "override_liquid_settings": "apply_waterlogging",
+              "processors": "minecraft:empty"
+            }
+          },
+          {
+            "weight": 10,
+            "element": {
+              "element_type": "minecraft:single_pool_element",
+              "projection": "rigid",
+              "location": "fluffytg:overworld/hermes_trial/rooms/room_s1",
+              "override_liquid_settings": "apply_waterlogging",
+              "processors": "minecraft:empty"
+            }
+          },
+          {
+            "weight": 10,
+            "element": {
+              "element_type": "minecraft:single_pool_element",
+              "projection": "rigid",
+              "location": "fluffytg:overworld/hermes_trial/rooms/room_s2",
+              "override_liquid_settings": "apply_waterlogging",
+              "processors": "minecraft:empty"
+            }
+          },
+          {
+            "weight": 7,
+            "element": {
+              "element_type": "minecraft:single_pool_element",
+              "projection": "rigid",
+              "location": "fluffytg:overworld/hermes_trial/rooms/room_m1",
+              "override_liquid_settings": "apply_waterlogging",
+              "processors": "minecraft:empty"
+            }
+          },
+          {
+            "weight": 7,
+            "element": {
+              "element_type": "minecraft:single_pool_element",
+              "projection": "rigid",
+              "location": "fluffytg:overworld/hermes_trial/rooms/room_m2",
+              "override_liquid_settings": "apply_waterlogging",
+              "processors": "minecraft:empty"
+            }
+          },
+          {
+            "weight": 7,
+            "element": {
+              "element_type": "minecraft:single_pool_element",
+              "projection": "rigid",
+              "location": "fluffytg:overworld/hermes_trial/rooms/room_m3",
+              "override_liquid_settings": "apply_waterlogging",
+              "processors": "minecraft:empty"
+            }
+          },
+          {
+            "weight": 7,
+            "element": {
+              "element_type": "minecraft:single_pool_element",
+              "projection": "rigid",
+              "location": "fluffytg:overworld/hermes_trial/rooms/room_m4",
+              "override_liquid_settings": "apply_waterlogging",
+              "processors": "minecraft:empty"
+            }
+          },
+          {
+            "weight": 7,
+            "element": {
+              "element_type": "minecraft:single_pool_element",
+              "projection": "rigid",
+              "location": "fluffytg:overworld/hermes_trial/rooms/room_m5",
+              "override_liquid_settings": "apply_waterlogging",
+              "processors": "minecraft:empty"
+            }
+          },
+          {
+            "weight": 7,
+            "element": {
+              "element_type": "minecraft:single_pool_element",
+              "projection": "rigid",
+              "location": "fluffytg:overworld/hermes_trial/rooms/room_m6",
+              "override_liquid_settings": "apply_waterlogging",
+              "processors": "minecraft:empty"
+            }
+          },
+          {
+            "weight": 7,
+            "element": {
+              "element_type": "minecraft:single_pool_element",
+              "projection": "rigid",
+              "location": "fluffytg:overworld/hermes_trial/rooms/room_m7",
+              "override_liquid_settings": "apply_waterlogging",
+              "processors": "minecraft:empty"
+            }
+          },
+          {
+            "weight": 7,
+            "element": {
+              "element_type": "minecraft:single_pool_element",
+              "projection": "rigid",
+              "location": "fluffytg:overworld/hermes_trial/rooms/room_m3",
+              "override_liquid_settings": "apply_waterlogging",
+              "processors": "minecraft:empty"
+            }
+          },
+          {
+            "weight": 4,
+            "element": {
+              "element_type": "minecraft:single_pool_element",
+              "projection": "rigid",
+              "location": "fluffytg:overworld/hermes_trial/rooms/room_l1",
+              "override_liquid_settings": "apply_waterlogging",
+              "processors": "minecraft:empty"
+            }
+          },
+          {
+            "weight": 4,
+            "element": {
+              "element_type": "minecraft:single_pool_element",
+              "projection": "rigid",
+              "location": "fluffytg:overworld/hermes_trial/rooms/room_l2",
+              "override_liquid_settings": "apply_waterlogging",
+              "processors": "minecraft:empty"
+            }
+          },
+          {
+            "weight": 6,
+            "element": {
+              "element_type": "minecraft:single_pool_element",
+              "projection": "rigid",
+              "location": "fluffytg:overworld/hermes_trial/verticals/ladder_s1",
+              "override_liquid_settings": "apply_waterlogging",
+              "processors": "minecraft:empty"
+            }
+          },
+          {
+            "weight": 6,
+            "element": {
+              "element_type": "minecraft:single_pool_element",
+              "projection": "rigid",
+              "location": "fluffytg:overworld/hermes_trial/verticals/drop_s1",
+              "override_liquid_settings": "apply_waterlogging",
+              "processors": "minecraft:empty"
+            }
+          },
+          {
+            "weight": 1,
+            "element": {
+              "element_type": "minecraft:single_pool_element",
+              "projection": "rigid",
+              "location": "fluffytg:overworld/hermes_trial/end/end1",
+              "override_liquid_settings": "apply_waterlogging",
+              "processors": "minecraft:empty"
+            }
+          }
+      ]
+  }
+  

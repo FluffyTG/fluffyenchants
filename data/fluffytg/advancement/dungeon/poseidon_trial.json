@@ -1,0 +1,41 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:prismarine",
+        "count": 1
+      },
+      "title": {
+        "text": "Poseidon's Trial",
+        "italic": false
+      },
+      "description": {
+        "translate": "Enter Poseidons Realm, a kingdom under the vast sea..."
+      }
+    },
+    "parent": "fluffytg:dungeonsroot",
+    "criteria": {
+      "minecraft_trials_edition": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "fluffytg:poseidon_trial"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "minecraft_trials_edition"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }
+  

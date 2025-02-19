@@ -1,0 +1,33 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:iron_chestplate"
+      },
+      "title": "Armor-loss Journey!!",
+      "description": "Get more kilometers out of your boots with Lightweight armor!!",
+      "frame": "task"
+    },
+    "parent": "fluffytg:enchantmentroot",
+    "criteria": {
+      "getHermes": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "predicates": {
+                "minecraft:enchantments": [
+                  {
+                    "enchantments": "fluffytg:lightweight",
+                    "levels": {
+                      "min": 1
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+  

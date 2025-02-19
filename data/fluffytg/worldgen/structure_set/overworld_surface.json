@@ -1,0 +1,21 @@
+{
+  "structures": [
+    {
+      "structure": "fluffytg:fort_lumnis",
+      "weight": 1
+    },
+    {
+      "structure": "fluffytg:maps/overworld",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1661188091,
+    "spread_type": "linear",
+    "frequency_reduction_method": "default",
+    "frequency": 0.3,
+    "spacing": 13,
+    "separation": 2
+  }
+}

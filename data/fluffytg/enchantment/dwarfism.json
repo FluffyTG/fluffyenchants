@@ -1,0 +1,50 @@
+{
+  "description": "Curse of Dwarfism",
+  "exclusive_set": "#fluffytg:exclusive/size",
+  "supported_items": "#minecraft:enchantable/armor",
+  "primary_items": "#minecraft:enchantable/armor",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 12,
+    "per_level_above_first": 3
+  },
+  "max_cost": {
+    "base": 23,
+    "per_level_above_first": 9
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "armor"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "id": "fluffytg:dwarfism",
+        "attribute": "minecraft:scale",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -0.2,
+          "per_level_above_first": -0.1
+        },
+        "operation": "add_multiplied_total"
+      },
+      {
+        "id": "fluffytg:dwarfism2",
+        "attribute": "minecraft:movement_speed",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.08,
+          "per_level_above_first": 0.04
+        },
+        "operation": "add_multiplied_total"
+      },
+      {
+        "id": "fluffytg:dwarfism3",
+        "attribute": "minecraft:max_health",
+        "amount": -0.15,
+        "operation": "add_multiplied_total"
+      }
+    ]
+  }
+}

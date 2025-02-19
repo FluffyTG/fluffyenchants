@@ -1,0 +1,41 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:deepslate_bricks",
+        "count": 1
+      },
+      "title": {
+        "text": "The Crypt of Dwarves",
+        "italic": false
+      },
+      "description": {
+        "translate": "Locate the Dwarvish Crypt, the last stand of the dwarven empire..."
+      }
+    },
+    "parent": "fluffytg:dungeonsroot",
+    "criteria": {
+      "minecraft_trials_edition": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "structures": "fluffytg:dwarvish_crypt"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "requirements": [
+      [
+        "minecraft_trials_edition"
+      ]
+    ],
+    "sends_telemetry_event": true
+  }
+  
