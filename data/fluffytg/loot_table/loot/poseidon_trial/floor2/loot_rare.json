@@ -21,25 +21,82 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:trident",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:chainmail_chestplate",
-          "weight": 2,
+          "name": "minecraft:golden_helmet",
+          "weight": 1,
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
-              "options": [
-                "fluffytg:oxygen_tank"
-              ]
+              "function": "minecraft:enchant_with_levels",
+              "levels": 18,
+              "options": "#fluffytg:dungeon_enchant_lists/poseidon_trial/floor2"
             },
             {
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:trim": {
-                  "material": "minecraft:diamond",
+                  "material": "minecraft:netherite",
+                  "pattern": "minecraft:coast"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 40,
+              "options": "#fluffytg:dungeon_enchant_lists/poseidon_trial/floor2"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:netherite",
+                  "pattern": "minecraft:coast"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 19,
+              "options": "#fluffytg:dungeon_enchant_lists/poseidon_trial/floor2"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:netherite",
+                  "pattern": "minecraft:coast"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 19,
+              "options": "#fluffytg:dungeon_enchant_lists/poseidon_trial/floor2"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:netherite",
                   "pattern": "minecraft:coast"
                 }
               }
@@ -53,42 +110,7 @@
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
-              "options": [
-                "fluffytg:poseidon_grace",
-                "fluffytg:oxygen_tank",
-                "fluffytg:vortex_arrow",
-                "minecraft:loyalty",
-                "minecraft:unbreaking",
-                "minecraft:lure",
-                "minecraft:luck_of_the_sea",
-                "minecraft:impaling",
-                "minecraft:aqua_affinity",
-                "minecraft:respiration",
-                "minecraft:depth_strider"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:chainmail_helmet",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "options": [
-                "minecraft:respiration",
-                "minecraft:aqua_affinity"
-              ]
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:trim": {
-                  "material": "minecraft:diamond",
-                  "pattern": "minecraft:coast"
-                }
-              }
+              "options": "#fluffytg:dungeon_enchant_lists/poseidon_trial/floor2"
             }
           ]
         },
@@ -124,37 +146,40 @@
     },
     {
       "rolls": {
-        "min": 0,
-        "max": 6
+        "type": "minecraft:constant",
+        "value": 1
       },
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:prismarine_shard",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 4
-              }
-            }
-          ]
-        },
+          "type": "minecraft:loot_table",
+          "value": "fluffytg:loot/poseidon_trial/prismarine",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:constant",
+        "value": 1
+      },
+      "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:prismarine_crystals",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 4
-              }
-            }
-          ]
+          "type": "minecraft:loot_table",
+          "value": "fluffytg:loot/poseidon_trial/fish",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:constant",
+        "value": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "fluffytg:loot/poseidon_trial/coral",
+          "weight": 1
         }
       ]
     }

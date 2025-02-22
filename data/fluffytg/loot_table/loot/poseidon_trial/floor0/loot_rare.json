@@ -21,106 +21,115 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:sponge",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "Spongebob Minecraftpants",
-                "color": "gold",
-                "italic": false
-              }
-            },
-            {
-              "function": "minecraft:set_lore",
-              "lore": [
-                {
-                  "text": "Who lives in a beetroot under the sea...",
-                  "color": "white",
-                  "italic": false
-                }
-              ],
-              "mode": "insert"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:trident",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:bow",
+          "name": "minecraft:iron_sword",
           "weight": 1,
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
-              "options": [
-                "fluffytg:vortex_arrow"
-              ],
-              "only_compatible": true
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond_sword",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "options": [
-                "fluffytg:aquaticbane"
-              ],
-              "only_compatible": true
+              "function": "minecraft:enchant_with_levels",
+              "levels": 35,
+              "options": "#fluffytg:dungeon_enchant_lists/poseidon_trial/floor0"
             }
           ]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:book",
-          "weight": 4,
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
-              "options": [
-                "fluffytg:poseidon_might",
-                "fluffytg:aquaticbane",
-                "fluffytg:vortex_arrow",
-                "minecraft:loyalty",
-                "minecraft:unbreaking",
-                "minecraft:lure",
-                "minecraft:luck_of_the_sea",
-                "minecraft:impaling",
-                "minecraft:aqua_affinity",
-                "minecraft:respiration",
-                "minecraft:depth_strider"
-              ]
+              "options": "#fluffytg:dungeon_enchant_lists/poseidon_trial/floor0"
             }
           ]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:nautilus_shell",
-          "weight": 4
+          "weight": 1
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:wet_sponge",
-          "weight": 6
+          "weight": 2
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:diamond_helmet",
-          "weight": 2,
+          "name": "minecraft:chainmail_helmet",
+          "weight": 1,
           "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "options": "#fluffytg:dungeon_enchant_lists/poseidon_trial/floor0"
+            },
             {
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:trim": {
-                  "material": "minecraft:copper",
+                  "material": "minecraft:diamond",
+                  "pattern": "minecraft:coast"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "options": "#fluffytg:dungeon_enchant_lists/poseidon_trial/floor0"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:diamond",
+                  "pattern": "minecraft:coast"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "options": "#fluffytg:dungeon_enchant_lists/poseidon_trial/floor0"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:diamond",
+                  "pattern": "minecraft:coast"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "options": "#fluffytg:dungeon_enchant_lists/poseidon_trial/floor0"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:diamond",
                   "pattern": "minecraft:coast"
                 }
               }
@@ -130,12 +139,12 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond",
-          "weight": 6,
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2,
+                "min": 1,
                 "max": 3
               }
             }
@@ -159,37 +168,27 @@
     },
     {
       "rolls": {
-        "min": 0,
-        "max": 8
+        "type": "minecraft:constant",
+        "value": 1
       },
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:prismarine_shard",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 4
-              }
-            }
-          ]
-        },
+          "type": "minecraft:loot_table",
+          "value": "fluffytg:loot/poseidon_trial/prismarine",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:constant",
+        "value": 1
+      },
+      "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:prismarine_crystals",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 4
-              }
-            }
-          ]
+          "type": "minecraft:loot_table",
+          "value": "fluffytg:loot/poseidon_trial/fish",
+          "weight": 1
         }
       ]
     }

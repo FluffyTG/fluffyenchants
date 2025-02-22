@@ -38,44 +38,25 @@
           "functions": [
             {
               "function": "minecraft:enchant_randomly",
-              "options": [
-                "fluffytg:poseidon_grace",
-                "fluffytg:oxygen_tank",
-                "fluffytg:vortex_arrow",
-                "minecraft:loyalty",
-                "minecraft:unbreaking",
-                "minecraft:lure",
-                "minecraft:luck_of_the_sea",
-                "minecraft:impaling",
-                "minecraft:aqua_affinity",
-                "minecraft:respiration",
-                "minecraft:depth_strider"
-              ]
+              "options": "#fluffytg:dungeon_enchant_lists/poseidon_trial/floor2"
             }
           ]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond_helmet",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
-              "options": [
-                "minecraft:respiration",
-                "minecraft:aqua_affinity"
-              ]
-            },
-            {
               "function": "minecraft:enchant_with_levels",
-              "levels": 14,
-              "options": "#minecraft:on_random_loot"
+              "levels": 30,
+              "options": "#fluffytg:dungeon_enchant_lists/poseidon_trial/floor2"
             },
             {
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:trim": {
-                  "material": "minecraft:iron",
+                  "material": "minecraft:amethyst",
                   "pattern": "minecraft:coast"
                 }
               }
@@ -85,19 +66,60 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond_chestplate",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
-              "function": "minecraft:enchant_randomly",
-              "options": [
-                "fluffytg:oxygen_tank"
-              ]
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "options": "#fluffytg:dungeon_enchant_lists/poseidon_trial/floor2"
             },
             {
               "function": "minecraft:set_components",
               "components": {
                 "minecraft:trim": {
-                  "material": "minecraft:iron",
+                  "material": "minecraft:amethyst",
+                  "pattern": "minecraft:coast"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "options": "#fluffytg:dungeon_enchant_lists/poseidon_trial/floor2"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:amethyst",
+                  "pattern": "minecraft:coast"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 30,
+              "options": "#fluffytg:dungeon_enchant_lists/poseidon_trial/floor2"
+            },
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:trim": {
+                  "material": "minecraft:amethyst",
                   "pattern": "minecraft:coast"
                 }
               }
@@ -111,8 +133,8 @@
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
-              "levels": 11,
-              "options": "#minecraft:on_random_loot"
+              "levels": 30,
+              "options": "#fluffytg:dungeon_enchant_lists/poseidon_trial/floor2"
             },
             {
               "function": "minecraft:set_enchantments",
@@ -168,37 +190,40 @@
     },
     {
       "rolls": {
-        "min": 0,
-        "max": 8
+        "type": "minecraft:constant",
+        "value": 1
       },
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:prismarine_shard",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 4
-              }
-            }
-          ]
-        },
+          "type": "minecraft:loot_table",
+          "value": "fluffytg:loot/poseidon_trial/prismarine",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:constant",
+        "value": 1
+      },
+      "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:prismarine_crystals",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 4
-              }
-            }
-          ]
+          "type": "minecraft:loot_table",
+          "value": "fluffytg:loot/poseidon_trial/fish",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:constant",
+        "value": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "fluffytg:loot/poseidon_trial/coral",
+          "weight": 1
         }
       ]
     }

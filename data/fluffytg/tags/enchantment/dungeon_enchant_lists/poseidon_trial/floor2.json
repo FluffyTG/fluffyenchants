@@ -8,10 +8,11 @@
           "minecraft:respiration",
           "minecraft:depth_strider",
           "minecraft:unbreaking",
-          "minecraft:projectile_protection",
           "minecraft:lure",
           "minecraft:luck_of_the_sea",
           "minecraft:impaling",
-          "minecraft:aqua_affinity"
+          "minecraft:aqua_affinity",
+          "minecraft:riptide",
+          "minecraft:channeling"
         ]
       }
