@@ -3,6 +3,10 @@
     {
       "structure": "fluffytg:dwarvish_crypt",
       "weight": 1
+    },
+    {
+      "structure": "fluffytg:misc/mining_affinity",
+      "weight": 4
     }
   ],
   "placement": {

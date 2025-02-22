@@ -1,0 +1,173 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": {
+          "type": "minecraft:uniform",
+          "min": 1,
+          "max": 2
+        }
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "golden_helmet",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "\"Mining Helmet\"",
+                "minecraft:max_damage": 850
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "leather_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "\"Mining Chestplate\"",
+                "minecraft:max_damage": 1000
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "leather_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "\"Mining Pants\"",
+                "minecraft:max_damage": 905
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "leather_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "\"Mining Shoes\"",
+                "minecraft:max_damage": 875
+              }
+            }
+          ]
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_components",
+          "components": {
+            "minecraft:trim": {
+              "material": "minecraft:diamond",
+              "pattern": "minecraft:rib",
+              "show_in_tooltip": true
+            },
+            "minecraft:enchantments": {
+              "levels": {
+                "fluffytg:mining_affinity": 1
+              }
+            },
+            "minecraft:dyed_color": {
+              "rgb": 3556451
+            }
+          }
+        },
+        {
+          "function": "minecraft:enchant_with_levels",
+          "levels": {
+            "type": "minecraft:uniform",
+            "min": 0,
+            "max": 35
+          },
+          "options": "#fluffytg:dungeon_enchant_lists/misc/mining_hut"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dried_kelp",
+          "weight": 8,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:item_name": "\"Miner's Snack\"",
+                "minecraft:food": {
+                  "nutrition": 6,
+                  "saturation": 8
+                },
+                "minecraft:consumable": {
+                  "consume_seconds": 2.1,
+                  "animation": "eat",
+                  "on_consume_effects": [
+                    {
+                      "type": "minecraft:apply_effects",
+                      "effects": [
+                        {
+                          "id": "minecraft:haste",
+                          "duration": 300
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:raw_copper",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:raw_gold",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:raw_iron",
+          "weight": 9
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone",
+          "weight": 7
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": {
+            "type": "minecraft:uniform",
+            "min": 3,
+            "max": 9
+          }
+        }
+      ]
+    }
+  ]
+}

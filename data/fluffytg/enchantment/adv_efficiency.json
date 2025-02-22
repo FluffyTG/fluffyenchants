@@ -1,37 +1,33 @@
 {
-    "description": {
-      "text": "Advanced Efficiency",
-      "color": "gold",
-      "italic": false,
-      "underlined": false
-    },
-    "supported_items": "#minecraft:enchantable/mining",
-    "weight": 10,
-    "max_level": 1,
-    "min_cost": {
-      "base": 18,
-      "per_level_above_first": 10
-    },
-    "max_cost": {
-      "base": 29,
-      "per_level_above_first": 10
-    },
-    "anvil_cost": 1,
-    "slots": [
-      "mainhand"
-    ],
-    "effects": {
-      "minecraft:attributes": [
-        {
-          "id": "fluffytg:adv_efficiency",
-          "attribute": "minecraft:mining_efficiency",
-          "amount": {
-            "type": "minecraft:levels_squared",
-            "added": 8
-          },
-          "operation": "add_value"
-        }
-      ]  
-    }
+  "description": {
+    "text": "Advanced Efficiency",
+    "color": "gold",
+    "italic": false,
+    "underlined": false
+  },
+  "supported_items": "#minecraft:enchantable/mining",
+  "weight": 10,
+  "max_level": 1,
+  "min_cost": {
+    "base": 18,
+    "per_level_above_first": 10
+  },
+  "max_cost": {
+    "base": 29,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "id": "fluffytg:adv_efficiency",
+        "attribute": "minecraft:mining_efficiency",
+        "amount": 0.2,
+        "operation": "add_multiplied_base"
+      }
+    ]
   }
-  
+}

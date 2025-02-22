@@ -1,0 +1,27 @@
+{
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 15,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "fluffytg:overworld/misc/mining_affinity/house_generic",
+          "override_liquid_settings": "apply_waterlogging",
+          "processors": "minecraft:empty"
+        }
+      },
+      {
+        "weight": 20,
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "fluffytg:overworld/misc/mining_affinity/spawner_generic",
+          "override_liquid_settings": "apply_waterlogging",
+          "processors": "minecraft:empty"
+        }
+      }
+
+      ]
+  }
+  

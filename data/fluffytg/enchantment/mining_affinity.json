@@ -1,0 +1,35 @@
+{
+  "description": {
+    "text": "Mining Affinity",
+    "color": "#98cdaa"
+  },
+  "supported_items": "#minecraft:enchantable/armor",
+  "weight": 1,
+  "max_level": 2,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 3
+  },
+  "max_cost": {
+    "base": 25,
+    "per_level_above_first": 5
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "armor"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "attribute": "minecraft:mining_efficiency",
+        "id": "fluffytg:mining_affinity",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 4,
+          "per_level_above_first": 3
+        },
+        "operation": "add_value"
+      }
+    ]
+  }
+}

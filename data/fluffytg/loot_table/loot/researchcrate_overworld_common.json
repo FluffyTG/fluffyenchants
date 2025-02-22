@@ -12,6 +12,11 @@
             "type": "minecraft:loot_table",
             "value": "fluffytg:loot/banishing/researchcrate",
             "weight": 2
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "fluffytg:loot/misc/overworld/miner_hut/researchcrate",
+            "weight": 2
           }
         ]
       }
