@@ -1,0 +1,14 @@
+{
+  "values": [
+    "#minecraft:undead",
+    "#minecraft:illager",
+    "#minecraft:illager_friends",
+    "#minecraft:wither_friends",
+    "minecraft:blaze",
+    "minecraft:guardian",
+    "minecraft:elder_guardian",
+    "minecraft:magma_cube",
+    "minecraft:creeper",
+    "minecraft:slime"
+  ]
+}

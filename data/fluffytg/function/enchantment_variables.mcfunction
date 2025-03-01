@@ -1,1 +1,1 @@
-scoreboard objectives add poseidon_cooldown dummy
+scoreboard objectives add fe_athena_war_count dummy
