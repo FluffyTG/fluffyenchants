@@ -2,7 +2,7 @@
     "anvil_cost": 4,
     "description": {
       "text": "Magic Protection",
-      "color": "dark_aqua"
+      "color": "#98cdaa"
     },
     "effects": {
       "minecraft:damage_protection": [

@@ -1,7 +1,7 @@
 {
   "description": {
     "text": "Banishing",
-    "color": "dark_aqua"
+    "color": "#7cabd0"
   },
   "exclusive_set": "#fluffytg:exclusive/knocking",
   "supported_items": "#fluffytg:enchants/banishing",

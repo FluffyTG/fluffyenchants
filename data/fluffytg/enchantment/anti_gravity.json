@@ -1,7 +1,7 @@
 {
   "description": {
     "text": "Anti-Gravity",
-    "color": "dark_aqua"
+    "color": "#7cabd0"
   },
   "supported_items": "#minecraft:enchantable/foot_armor",
   "primary_items": "#minecraft:enchantable/foot_armor",

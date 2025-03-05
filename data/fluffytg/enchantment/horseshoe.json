@@ -1,5 +1,8 @@
 {
-    "description": "Horseshoe",
+    "description": {
+      "text": "Horseshoes",
+      "color": "#98cdaa"
+    },
     "supported_items": "#fluffytg:new_enchantables/all_horse_armor",
     "weight": 3,
     "max_level": 3,

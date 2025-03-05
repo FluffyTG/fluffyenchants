@@ -1,5 +1,8 @@
 {
-  "description": "Piercing Shot",
+  "description": {
+    "text": "Piercing Shot",
+    "color": "#98cdaa"
+  },
   "supported_items": "#minecraft:enchantable/bow",
   "primary_items": "#minecraft:enchantable/bow",
   "weight": 1,

@@ -1,7 +1,7 @@
 {
   "description": {
     "text": "Jetpack",
-    "color": "dark_aqua"
+    "color": "#7cabd0"
   },
   "supported_items": "#minecraft:chest_armor",
   "primary_items": "#minecraft:chest_armor",

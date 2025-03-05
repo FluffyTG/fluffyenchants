@@ -1,5 +1,8 @@
 {
-  "description": "Clobbering",
+  "description": {
+    "text": "Clobbering",
+    "color": "#98cdaa"
+  },
   "supported_items": "#minecraft:axes",
   "primary_items": "#minecraft:axes",
   "weight": 1,

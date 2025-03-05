@@ -1,5 +1,8 @@
 {
-  "description": "Lightweight",
+  "description": {
+    "text": "Lightweight",
+    "color": "#98cdaa"
+  },
   "exclusive_set": "#fluffytg:exclusive/speed",
   "supported_items": "#minecraft:enchantable/armor",
   "primary_items": "#minecraft:enchantable/armor",

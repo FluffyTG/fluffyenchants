@@ -1,7 +1,7 @@
 {
   "description": {
     "text": "Hermes",
-    "color": "dark_aqua"
+    "color": "#a4567c"
   },
   "supported_items": "#minecraft:enchantable/armor",
   "primary_items": "#minecraft:enchantable/armor",

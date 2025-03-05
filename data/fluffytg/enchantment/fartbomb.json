@@ -1,5 +1,8 @@
 {
-  "description": "Fart Bomb",
+  "description": {
+    "text": "Fart-bomb",
+    "color": "#98cdaa"
+  },
   "supported_items": "#minecraft:enchantable/leg_armor",
   "primary_items": "#minecraft:enchantable/leg_armor",
   "weight": 1,

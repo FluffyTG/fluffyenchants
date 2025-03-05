@@ -1,6 +1,7 @@
 {
     "description": {
-      "text": "Blazing Touch"
+      "text": "Blazing Touch",
+      "color": "#98cdaa"
     },
     "exclusive_set": [
       "minecraft:silk_touch"

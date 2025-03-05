@@ -1,5 +1,8 @@
 {
-    "description": "Experienced",
+    "description": {
+      "text": "Experienced",
+      "color": "#98cdaa"
+    },
     "supported_items": "#fluffytg:enchants/all_tools",
     "weight": 5,
     "max_level": 10,

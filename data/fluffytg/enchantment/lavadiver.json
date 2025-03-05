@@ -1,7 +1,7 @@
 {
   "description": {
     "text": "Lava Diver",
-    "color": "dark_aqua"
+    "color": "#7cabd0"
   },
   "exclusive_set": "minecraft:respiration",
   "supported_items": "#minecraft:enchantable/head_armor",

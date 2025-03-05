@@ -1,5 +1,8 @@
 {
-  "description": "Athena's Blessing",
+  "description": {
+    "text": "Athena's Blessing",
+    "color": "#a4567c"
+  },
   "supported_items": "#minecraft:enchantable/head_armor",
   "weight": 3,
   "max_level": 1,

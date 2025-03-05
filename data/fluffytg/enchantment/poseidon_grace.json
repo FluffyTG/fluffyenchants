@@ -1,7 +1,7 @@
 {
   "description": {
     "text": "Poseidon's Grace",
-    "color": "dark_aqua"
+    "color": "#a4567c"
   },
   "exclusive_set": [
     "fluffytg:poseidon_vitality",

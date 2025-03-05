@@ -2,7 +2,7 @@
     "description": {
       "text": "Vortex Arrow",
       "type": "text",
-      "color": "dark_aqua",
+      "color": "#7cabd0",
       "shadow_color": 2105429
     },
     "supported_items": "#minecraft:enchantable/bow",
