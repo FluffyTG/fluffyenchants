@@ -1,0 +1,18 @@
+{
+  "function": "minecraft:set_attributes",
+  "modifiers": [
+    {
+      "attribute": "minecraft:attack_damage",
+      "id": "fluffytg:athena_blessing",
+      "amount": {
+        "type": "minecraft:score",
+        "target": "this",
+        "score": "fe_athena_war_count",
+        "scale": 0.025
+      },
+      "operation": "add_multiplied_base",
+      "slot": "head"
+    }
+  ],
+  "replace": false
+}

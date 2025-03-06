@@ -9,6 +9,7 @@
     "minecraft:elder_guardian",
     "minecraft:magma_cube",
     "minecraft:creeper",
-    "minecraft:slime"
+    "minecraft:slime",
+    "minecraft:enderman"
   ]
 }
