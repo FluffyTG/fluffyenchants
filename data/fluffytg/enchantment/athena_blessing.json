@@ -21,6 +21,13 @@
   "effects": {
     "minecraft:tick": [
       {
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "periodic_tick": 40
+          }
+        },
         "effect": {
           "type": "minecraft:run_function",
           "function": "fluffytg:athena_war"

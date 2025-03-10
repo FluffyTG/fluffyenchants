@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "stone_bricks",
+    "stone",
+    "minecraft:mossy_stone_bricks",
+    "minecraft:chiseled_stone_bricks",
+    "minecraft:cracked_stone_bricks"
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 0,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chiseled_tuff"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:polished_tuff"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "tuff"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_count",
+          "count": {
+            "type": "minecraft:uniform",
+            "min": 2,
+            "max": 5
+          }
+        }
+      ]
+    }
+  ],
+  "functions": []
+}
