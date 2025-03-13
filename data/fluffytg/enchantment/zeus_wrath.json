@@ -22,14 +22,17 @@
     "minecraft:tick": [
       {
         "requirements": {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "equipment": {
-              "mainhand": {
-                "components": {
-                  "minecraft:custom_data": {
-                    "zeus_wrath": false
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "components": {
+                    "minecraft:custom_data": {
+                      "zeus_wrath": true
+                    }
                   }
                 }
               }

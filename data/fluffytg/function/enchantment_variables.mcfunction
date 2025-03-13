@@ -1,1 +1,2 @@
 scoreboard objectives add fe_athena_war_count dummy
+scoreboard objectives add fe_zeus_wrath_cooldown dummy

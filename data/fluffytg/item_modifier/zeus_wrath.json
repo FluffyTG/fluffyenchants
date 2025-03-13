@@ -2,10 +2,13 @@
   "function": "minecraft:set_components",
   "components": {
     "minecraft:consumable": {
-      "consume_seconds": 200000000000,
+      "consume_seconds": 200000,
       "animation": "spear",
       "has_consume_particles": false,
       "on_consume_effects": []
+    },
+    "minecraft:custom_data": {
+      "zeus_wrath": true
     }
   }
 }
