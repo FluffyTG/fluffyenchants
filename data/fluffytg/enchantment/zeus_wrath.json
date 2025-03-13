@@ -44,6 +44,36 @@
           "function": "fluffytg:zeus_sword_apply"
         }
       }
+    ],
+    "minecraft:damage_immunity": [
+      {
+        "requirements": {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "id": "minecraft:is_lightning",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "effect": {}
+      },
+      {
+        "requirements": {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "id": "minecraft:is_fire",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "effect": {}
+      }
     ]
   }
 }
