@@ -26,6 +26,9 @@
   * natural light heal mechanic
     * Sun = 1.25x natural regen
     * Night = 1.1x natural regen
+* Some god of 'Harvest'
+  * right click to gain full saturation
+    * cooldown 2 mins
 * Loom of Fate
   * increased chance for rare events (?)
     *  might be do-able
